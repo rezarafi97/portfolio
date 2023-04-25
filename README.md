@@ -1,3 +1,7 @@
+وب اپلیکیشن آموزشی پورتفولیو جهت یادگیری کلیه مفاهیم
+Material UI
+بوده و به دلیل عدم نیاز به سرور به صورت استاتیک طراحی شده است
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
