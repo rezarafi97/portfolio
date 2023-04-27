@@ -26,7 +26,7 @@ const Contact = ({ helmetTitle }) => {
     <Card
       sx={{
         height: "100vh",
-        backgroundColor: "whitesmoke",
+        backgroundColor: "gray",
         overflowY: "scroll",
         display: "flex",
         flexDirection: "column",
@@ -38,8 +38,8 @@ const Contact = ({ helmetTitle }) => {
 
       <CardContent>
         <CustomDivider
-          bColor="warning.main"
-          cColor="warning"
+          bColor="primary.main"
+          cColor="primary"
           icon={<AccountCircle />}
           align="center"
           text="ارتباط با من"
@@ -116,7 +116,7 @@ const Contact = ({ helmetTitle }) => {
                   href="mailto:younes.gh@chmail.ir"
                   alt="email"
                   style={{
-                    color: "tomato",
+                    color: "primary",
                   }}
                 >
                   ایمیل

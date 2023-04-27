@@ -5,6 +5,7 @@ import { Card, CardContent, Typography, Slide } from "@mui/material";
 import Grid from "@mui/material/Unstable_Grid2";
 
 import { CodeRounded, SelfImprovementRounded } from "@mui/icons-material";
+import EmojiPeopleIcon from "@mui/icons-material/EmojiPeople";
 
 import { Skills } from "../components/pages";
 import avatar from "../assets/avatar02.JPG";
@@ -25,7 +26,7 @@ const About = ({ helmetTitle }) => {
     <Card
       sx={{
         height: "100vh",
-        backgroundColor: "whitesmoke",
+        backgroundColor: "gray",
         overflowY: "scroll",
       }}
     >
@@ -50,8 +51,18 @@ const About = ({ helmetTitle }) => {
                 transitionDelay: loading ? "200ms" : "0ms",
               }}
             >
-              <Typography variant="body2" sx={{ textAlign: "left", mt: 2, ml: 2 }}>
+              <Typography
+                variant="body2"
+                sx={{ textAlign: "left", mt: 2, ml: 2, color: "primary" }}
+              >
                 رضا رفیع زاده هستم
+                <EmojiPeopleIcon
+                  sx={{
+                    verticalAlign: "bottom",
+                    color: "primary.main",
+                    mr: 1,
+                  }}
+                ></EmojiPeopleIcon>
               </Typography>
             </Slide>
 
@@ -62,8 +73,18 @@ const About = ({ helmetTitle }) => {
                 transitionDelay: loading ? "200ms" : "0ms",
               }}
             >
-              <Typography variant="body2" sx={{ textAlign: "left", mt: 2, ml: 2 }}>
+              <Typography
+                variant="body2"
+                sx={{ textAlign: "left", mt: 2, ml: 2, color: "primary" }}
+              >
                 متولد 1376 و تو شهر تبریز زندگی می کنم
+                <EmojiPeopleIcon
+                  sx={{
+                    verticalAlign: "bottom",
+                    color: "primary.main",
+                    mr: 1,
+                  }}
+                ></EmojiPeopleIcon>
               </Typography>
             </Slide>
 
@@ -74,13 +95,23 @@ const About = ({ helmetTitle }) => {
                 transitionDelay: loading ? "200ms" : "0ms",
               }}
             >
-              <Typography variant="body2" sx={{ textAlign: "left", mt: 2, ml: 2 }}>
+              <Typography
+                variant="body2"
+                sx={{ textAlign: "left", mt: 2, ml: 2, color: "primary" }}
+              >
                 حوزه فعالیتم توسعه سمت کاربر وب و با کمتر از یک سال سابقه کار به
                 صورت فریلنسر مشغول هستم
+                <EmojiPeopleIcon
+                  sx={{
+                    verticalAlign: "bottom",
+                    color: "primary.main",
+                    mr: 1,
+                  }}
+                ></EmojiPeopleIcon>
               </Typography>
             </Slide>
           </Grid>
-          
+
           <Grid xs={0} sm={0} md={2} lg={2} xl={2}>
             <CustomAvatar avatar={avatar} size={200} fallback="RR" />
           </Grid>

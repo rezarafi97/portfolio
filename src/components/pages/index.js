@@ -5,3 +5,4 @@ export { default as DevExpTimeline } from './DevExpTimeline';
 export { default as DevEduTimeline } from './DevEduTimeline';
 export { default as ShowProjects } from './ShowProjects';
 export { default as ContactForm } from './ContactForm';
+export { default as Pagination } from './Pagination';

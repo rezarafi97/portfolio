@@ -49,7 +49,7 @@ const ContactForm = () => {
                 <TextField
                   fullWidth
                   size="small"
-                  color="warning"
+                  color="primary"
                   label="نام و نام خانوادگی"
                   name="fullname"
                   variant="outlined"
@@ -75,7 +75,7 @@ const ContactForm = () => {
                 <TextField
                   fullWidth
                   size="small"
-                  color="warning"
+                  color="primary"
                   label="آدرس ایمیل"
                   name="email"
                   variant="outlined"
@@ -97,7 +97,7 @@ const ContactForm = () => {
                 <TextField
                   fullWidth
                   size="small"
-                  color="warning"
+                  color="primary"
                   label="عنوان"
                   name="subject"
                   variant="outlined"
@@ -125,7 +125,7 @@ const ContactForm = () => {
                   multiline
                   rows={6}
                   size="small"
-                  color="warning"
+                  color="primary"
                   label="متن پیام"
                   name="message"
                   variant="outlined"

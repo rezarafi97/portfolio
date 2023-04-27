@@ -77,7 +77,7 @@ const Home = ({ helmetTitle }) => {
                 <Typography
                     ref={nameEl}
                     variant="h5"
-                    color="black"
+                    color="primary.dark"
                 ></Typography>
             </Box>
 
@@ -85,7 +85,7 @@ const Home = ({ helmetTitle }) => {
                 <TextTransition springConfig={presets.wobbly}>
                     <Typography
                         variant="h6"
-                        color="black"
+                        color="primary.dark"
                         sx={{
                             mt: 3,
                         }}
@@ -96,7 +96,7 @@ const Home = ({ helmetTitle }) => {
 
                 <Typography
                     variant="h6"
-                    color="black"
+                    color="primary.dark"
                     sx={{ mt: 3, mr: 1 }}
                 >
                     من یک

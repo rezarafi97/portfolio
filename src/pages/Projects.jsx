@@ -7,6 +7,7 @@ import Grid from "@mui/material/Unstable_Grid2";
 import { SchoolRounded } from "@mui/icons-material";
 
 import { ShowProjects } from "../components/pages";
+
 import { CustomDivider } from "../components/commons";
 
 const Projects = ({ helmetTitle }) => {
@@ -21,31 +22,35 @@ const Projects = ({ helmetTitle }) => {
   }, []);
 
   return (
-    <Card
-      sx={{
-        height: "100vh",
-        backgroundColor: "whitesmoke",
-        overflowY: "scroll",
-      }}
-    >
-      <Helmet>
-        <title>{helmetTitle}</title>
-      </Helmet>
+    <>
+      <Card
+        sx={{
+          height: "100vh",
+          backgroundColor: "gray",
+          overflowY: "scroll",
+        }}
+      >
+        <Helmet>
+          <title>{helmetTitle}</title>
+        </Helmet>
 
-      <CardContent>
-        <CustomDivider
-          bColor="primary.main"
-          cColor="primary"
-          icon={<SchoolRounded />}
-          align="center"
-          text="نمونه کار های من"
-        />
+        <CardContent>
+          <CustomDivider
+            bColor="secondary.main"
+            cColor="secondary"
+            icon={<SchoolRounded />}
+            align="center"
+            text="نمونه کار های من"
+          />
 
-        <Grid container sx={{ mx: 3, mt: 3 }}>
-          <ShowProjects loading={loading} />
-        </Grid>
-      </CardContent>
-    </Card>
+          <Grid container sx={{ mx: 3, mt: 2 }}>
+            <ShowProjects loading={loading} />
+          </Grid>
+        </CardContent>
+      </Card>
+
+      
+    </>
   );
 };
 

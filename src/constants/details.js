@@ -1,5 +1,3 @@
-import userAvatar from "../assets/user.png";
-
 export const devEdu = [
   {
     year: "۱۳۹۳ - ۱۳۹۴",

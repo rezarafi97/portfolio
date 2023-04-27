@@ -28,7 +28,7 @@ const Resume = ({ helmetTitle }) => {
     <Card
       sx={{
         height: "100vh",
-        backgroundColor: "whitesmoke",
+        backgroundColor: "gray",
         overflowY: "scroll",
       }}
     >
@@ -38,8 +38,8 @@ const Resume = ({ helmetTitle }) => {
 
       <CardContent>
         <CustomDivider
-          bColor="error.main"
-          cColor="error"
+          bColor="info.main"
+          cColor="info"
           icon={<SettingsEthernetRounded />}
           align="center"
           text="رزومه من"
@@ -48,8 +48,8 @@ const Resume = ({ helmetTitle }) => {
         <Grid container sx={{ mt: 4 }}>
           <Grid xs={6}>
             <CustomDivider
-              bColor="warning.main"
-              cColor="warning"
+              bColor="secondary.main"
+              cColor="secondary"
               icon={<HomeRepairServiceRounded />}
               align="center"
               text="تجربیات"
@@ -60,8 +60,8 @@ const Resume = ({ helmetTitle }) => {
 
           <Grid xs={6}>
             <CustomDivider
-              bColor="info.main"
-              cColor="info"
+              bColor="primary.main"
+              cColor="primary"
               icon={<SchoolRounded />}
               align="center"
               text="تحصیلات"

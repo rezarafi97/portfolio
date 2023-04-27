@@ -25,7 +25,7 @@ const DrawerActionButton = () => {
                 aria-label="Sidebar"
                 size="small"
                 onClick={() => setDrawerOpen(true)}
-                sx={{ backgroundColor: "secondary", m: 2 }}
+                sx={{ backgroundColor: "secondary.main", m: 2 }}
             >
                 <MenuRounded />
             </Fab>

@@ -53,9 +53,9 @@ export const projects = [
         info: `وب اپلیکیشن داینامیک دفترچه مخاطبین برای یادگیری کلیه مفاهیم React js بوده و لازم به ذکر است که سروری برای این پروژه طراحی نشده است.`,
     },
     {
-        title: "وب اپلیکیشن آموزشی دفترچه مخاطبین",
+        title: "وب اپلیکیشن آموزشی پورتفولیو",
         image: pl06,
-        link: "https://github.com/rezarafi97/practicingProject02",
+        link: "https://github.com/rezarafi97/portfolio",
         info: `وب اپلیکیشن آموزشی پورتفولیو جهت یادگیری کلیه مفاهیم Material UI بوده و به دلیل عدم نیاز به سرور به صورت استاتیک طراحی شده است.`,
     },
 ];
