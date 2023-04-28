@@ -35,7 +35,7 @@ const About = ({ helmetTitle }) => {
       </Helmet>
       <CardContent>
         <Grid container sx={{ mx: 3 }}>
-          <Grid xs={12} sm={12} md={10} lg={10} xl={10}>
+          <Grid xs={12} sm={12} md={9} lg={9} xl={9}>
             <CustomDivider
               bColor="primary.main"
               cColor="primary"
@@ -99,8 +99,7 @@ const About = ({ helmetTitle }) => {
                 variant="body2"
                 sx={{ textAlign: "left", mt: 2, ml: 2, color: "primary" }}
               >
-                حوزه فعالیتم توسعه سمت کاربر وب و با کمتر از یک سال سابقه کار به
-                صورت فریلنسر مشغول هستم
+                توسعه دهنده سمت کاربر وب و از مرداد 1401 مشغول کار هستم
                 <EmojiPeopleIcon
                   sx={{
                     verticalAlign: "bottom",
@@ -112,8 +111,8 @@ const About = ({ helmetTitle }) => {
             </Slide>
           </Grid>
 
-          <Grid xs={0} sm={0} md={2} lg={2} xl={2}>
-            <CustomAvatar avatar={avatar} size={200} fallback="RR" />
+          <Grid xs={0} sm={0} md={3} lg={3} xl={3}>
+            <CustomAvatar avatar={avatar} size={175} fallback="RR" />
           </Grid>
         </Grid>
         <Grid container>

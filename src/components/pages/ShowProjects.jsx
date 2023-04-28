@@ -10,7 +10,6 @@ import {
   CardActions,
   Button,
   CardMedia,
-  Slide,
 } from "@mui/material";
 
 import { Pagination } from "./";
@@ -37,26 +36,26 @@ const ShowProjects = ({ loading }) => {
 
   const prevPageHandler = () => {
     if (count > 0) {
-      setCount((count) => count - 1);
-      setStart((start) => start - 6);
-      setEnd((end) => end - 6);
+      setCount((prevCount) => prevCount - 1);
+      setStart((prevStart) => prevStart - 6);
+      setEnd((prevEnd) => prevEnd - 6);
     } else {
       setCount(fLen);
       setStart(fLen * 6);
       setEnd((fLen + 1) * 6);
-    };
+    }
   };
 
   const nextPageHandler = () => {
-    if(count < fLen) {
-      setCount((count) => count +1);
-      setStart((start) => start + 6);
-      setEnd((end) => end + 6);
+    if (count < fLen) {
+      setCount((prevCount) => prevCount + 1);
+      setStart((prevStart) => prevStart + 6);
+      setEnd((prevEnd) => prevEnd + 6);
     } else {
       setCount(0);
       setStart(0);
       setEnd(6);
-    };
+    }
   };
 
   const p = projects.slice(start, end);
@@ -65,13 +64,6 @@ const ShowProjects = ({ loading }) => {
     <>
       {p.map((project, index) => (
         <Grid key={index} xs={12} sm={6} md={6} lg={4} sx={{ px: 2, mb: 1 }}>
-          <Slide
-            direction="up"
-            in={loading}
-            style={{
-              transitionDelay: loading ? `${index + 3}99ms` : "0ms",
-            }}
-          >
             <Card
               sx={{
                 maxWidth: 345,
@@ -114,11 +106,15 @@ const ShowProjects = ({ loading }) => {
                 </Button>
               </CardActions>
             </Card>
-          </Slide>
         </Grid>
       ))}
 
-      <Pagination pageOneHandler={pageOneHandler} pageTwoHandler={pageTwoHandler} prevPageHandler={prevPageHandler} nextPageHandler={nextPageHandler} />
+      <Pagination
+        pageOneHandler={pageOneHandler}
+        pageTwoHandler={pageTwoHandler}
+        prevPageHandler={prevPageHandler}
+        nextPageHandler={nextPageHandler}
+      />
     </>
   );
 };
