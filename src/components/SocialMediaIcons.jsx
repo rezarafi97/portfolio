@@ -10,7 +10,7 @@ const SocialMediaIcons = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <GitHub sx={{ color: "gray" }} />
+          <GitHub sx={{ color: "black" }} />
         </a>
       </IconButton>
 
@@ -20,7 +20,7 @@ const SocialMediaIcons = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Instagram sx={{ color: "gray" }} />
+          <Instagram sx={{ color: "black" }} />
         </a>
       </IconButton>
     </Box>

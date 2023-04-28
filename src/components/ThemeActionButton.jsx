@@ -26,7 +26,7 @@ const ThemeActionButton = () => {
                 size="small"
                 color="secondary"
                 onClick={handleThemeChange}
-                sx={{ ml: 2, color: "primary.light" }}
+                sx={{ ml: 2, color: "black" }}
             >
                 {theme.palette.mode === "dark" ? (
                     <WbSunnyOutlined />

@@ -35,7 +35,7 @@ const DevEduTimeline = ({ loading }) => {
             </TimelineSeparator>
 
             <TimelineContent>
-              <Typography variant="caption" color="gray">
+              <Typography variant="caption" color="black">
                 {item.year}
               </Typography>
 

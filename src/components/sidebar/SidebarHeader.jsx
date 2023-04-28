@@ -20,7 +20,7 @@ const SidebarHeader = () => {
 
       <CustomAvatar avatar={avatar} size={125} fallback="RR" />
 
-      <Typography variant="subtitle1" color="primary.text">
+      <Typography variant="subtitle1" color="black">
         <RandomReveal
           isPlaying
           duration={4}
@@ -31,7 +31,7 @@ const SidebarHeader = () => {
       </Typography>
 
       {start && (
-        <Typography variant="caption" color="gray">
+        <Typography variant="caption" color="black">
           <RandomReveal
             isPlaying
             duration={4}
