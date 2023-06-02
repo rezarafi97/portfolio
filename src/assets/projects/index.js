@@ -6,3 +6,5 @@ export {default as pl05} from "./projectL05.png";
 export {default as pp01} from "./projectP01.png";
 export {default as pp02} from "./projectP02.png";
 export {default as pl06} from "./projectL06.png";
+export {default as pp03} from "./projectP03.png";
+export {default as pp04} from "./projectP04.png";

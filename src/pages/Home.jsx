@@ -2,13 +2,14 @@ import { useEffect, useRef, useCallback, useState } from "react";
 
 import { Helmet } from "react-helmet-async";
 import { Box, Typography } from "@mui/material";
+
 import Typed from "typed.js";
 import TextTransition, { presets } from "react-text-transition";
+
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
 
 import { links } from "../constants/particles";
-import bg03 from "../assets/bg03.jpg";
 
 const Home = ({ helmetTitle }) => {
     const [index, setIndex] = useState(0);
@@ -51,10 +52,7 @@ const Home = ({ helmetTitle }) => {
     return (
         <Box
             sx={{
-                backgroundImage: `url(${bg03})`,
-                backgroundPosition: "center",
-                backgroundRepeat: "no-repeat",
-                backgroundSize: "cover",
+                backgroundColor: "gray",
                 height: "100vh",
                 display: "flex",
                 flexDirection: "column",

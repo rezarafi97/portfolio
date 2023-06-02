@@ -77,7 +77,7 @@ const About = ({ helmetTitle }) => {
                 variant="body2"
                 sx={{ textAlign: "left", mt: 2, ml: 2, color: "primary" }}
               >
-                متولد 1376 و تو شهر تبریز زندگی می کنم
+                متولد ۱۳۷۶ و تو شهر تبریز زندگی می کنم
                 <EmojiPeopleIcon
                   sx={{
                     verticalAlign: "bottom",
@@ -99,7 +99,7 @@ const About = ({ helmetTitle }) => {
                 variant="body2"
                 sx={{ textAlign: "left", mt: 2, ml: 2, color: "primary" }}
               >
-                توسعه دهنده سمت کاربر وب و از مرداد 1401 مشغول کار هستم
+                توسعه دهنده سمت کاربر وب و از مرداد ۱۴۰۱ مشغول کار هستم
                 <EmojiPeopleIcon
                   sx={{
                     verticalAlign: "bottom",
