@@ -9,6 +9,7 @@ import {
     pl06,
     pp03,
     pp04,
+    pp05,
 } from "../assets/projects";
 
 export const projects = [
@@ -71,5 +72,11 @@ export const projects = [
         image: pp04,
         link: "https://github.com/rezarafi97/stickerShop",
         info: `وب اپلیکیشن تمرینی فروشگاه استیکر جهت تمرین کتابخانه Redux بوده و دارای قابلیت مدیریت سبد خرید می باشد.`,
+    },
+    {
+        title: "وب اپلیکیشن تمرینی برنامه روزانه",
+        image: pp05,
+        link: "https://github.com/rezarafi97/todo",
+        info: `وب اپلیکیشن تمرینی برنامه روزانه جهت تمرین کتابخانه Redux بوده و دارای قابلیت مدیریت برنامه ها می باشد.`,
     },
 ];
